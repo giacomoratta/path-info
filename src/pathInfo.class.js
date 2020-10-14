@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const _ = require('./lodash.local')
 const utils = require('./utils')
 const { PathInfoBase } = require('./pathInfoBase.class')
 const { PathInfoError } = require('./pathInfoError.class')

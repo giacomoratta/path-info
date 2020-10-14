@@ -1,6 +1,6 @@
 const path = require('path')
 const fs = require('fs')
-const _ = require('lodash')
+const _ = require('./lodash.local')
 const { PathInfoError } = require('./pathInfoError.class')
 
 const utils = {}

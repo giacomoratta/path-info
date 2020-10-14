@@ -1,19 +1,21 @@
 {
   "name": "path-info-stats",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "author": "Giacomo Ratta",
+  "license": "MIT",
   "description": "NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.",
   "main": "index.js",
   "scripts": {
     "test": "standard && jest --testPathPattern=.*\\__tests__\\.*\\.test\\.js",
     "test-win": "standard && jest --testPathPattern=.*/__tests__/.*.test.js"
   },
-  "author": "Giacomo Ratta",
-  "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "jest": "^25.2.4",
+    "jest": "^26.5.3",
     "standard": "^14.3.1"
   },
   "jest": {

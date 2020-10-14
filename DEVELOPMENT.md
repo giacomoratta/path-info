@@ -11,5 +11,5 @@ $ npm test
 ```
 
 ### Proposals
-- watchable/observable
+- watch events on the path (events)
 - typescript

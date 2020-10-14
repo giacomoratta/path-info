@@ -2,11 +2,11 @@
 
 NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.
 
-[![Version npm](https://img.shields.io/npm/v/path-info.svg?style=flat-square)](https://www.npmjs.com/package/path-info) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+[![Version npm](https://img.shields.io/npm/v/path-info-stats.svg?style=flat-square)](https://www.npmjs.com/package/path-info-stats) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 #### Install
 ```shell script
-npm i path-info
+npm i path-info-stats
 ```
 
 ## Create an object and read path info
@@ -35,7 +35,7 @@ The following examples:
 
 #### Default class (async)
 ```javascript
-const { PathInfo } = require('path-info')
+const { PathInfo } = require('path-info-stats')
 const myPath = new PathInfo()
 await myPath.set({
     absolutePath: '/user/example012/documents/file1.txt',
@@ -45,7 +45,7 @@ await myPath.set({
 
 #### Sync class
 ```javascript
-const { PathInfoSync } = require('path-info')
+const { PathInfoSync } = require('path-info-stats')
 const myPath = new PathInfoSync()
 myPath.set({
     absolutePath: '/user/example012/documents/file1.txt',

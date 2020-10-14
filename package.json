@@ -1,6 +1,6 @@
 {
   "name": "path-info-stats",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Giacomo Ratta",
   "license": "MIT",
   "description": "NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.",

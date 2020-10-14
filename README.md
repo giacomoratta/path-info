@@ -1,8 +1,12 @@
 # path-info-stats
 
-NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.
-
 [![Version npm](https://img.shields.io/npm/v/path-info-stats.svg?style=flat-square)](https://www.npmjs.com/package/path-info-stats) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
+Read, keep, import, export path information and statistics:
+- read path stats both asynchronously (_default_) and synchronously
+- safe information (paths must exist and be correct)
+- cross-os path management
+- fast json import/export
 
 #### Install
 ```shell script
@@ -16,7 +20,8 @@ npm i path-info-stats
 Arguments:
 1. `absolutePath` is a required parameter with the absolute path we need to read information for (and it must exist);
 1. `relRootPath` is an optional parameter which states what is the root path for this object; this data is quite important, for example, if we want to handle groups of paths which belong to different root directories;
-1. both arguments **must exist** otherwise a `PathInfoError` will be thrown.
+1. `absolutePath` **must exist** otherwise a `PathInfoError` will be thrown;
+1. if present, `relRootPath` **must exist** otherwise a `PathInfoError` will be thrown.
 
 This is the main difference between `PathInfo` and `PathInfoSync` because it is the only `sync/async` method in the library.
 

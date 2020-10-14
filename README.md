@@ -1,4 +1,4 @@
-# PathInfo
+# path-info-stats
 
 NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.
 

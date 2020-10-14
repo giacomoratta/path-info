@@ -1,0 +1,48 @@
+{
+  "name": "@giacomoratta/path-info",
+  "version": "1.0.0",
+  "description": "NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=.*\\__tests__\\.*\\.test\\.js",
+    "test-win": "jest --testPathPattern=.*/__tests__/.*.test.js"
+  },
+  "author": "Giacomo Ratta",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^25.2.4",
+    "standard": "^14.3.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      ".example."
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giacomoratta/path-info.git"
+  },
+  "keywords": [
+    "path",
+    "path-info",
+    "directory",
+    "file",
+    "lstats",
+    "fs",
+    "root",
+    "relative",
+    "absolute"
+  ],
+  "bugs": {
+    "url": "https://github.com/giacomoratta/path-info/issues"
+  },
+  "homepage": "https://github.com/giacomoratta/path-info#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "path-info-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.",
   "main": "index.js",
   "scripts": {
@@ -32,15 +32,19 @@
   },
   "keywords": [
     "path",
-    "path-info",
-    "path-stats",
-    "directory",
-    "file",
+    "filesystem",
+    "dirname",
+    "basename",
+    "extname",
     "lstats",
+    "file",
     "fs",
     "root",
     "relative",
-    "absolute"
+    "absolute",
+    "path-info",
+    "path-stats",
+    "directory"
   ],
   "bugs": {
     "url": "https://github.com/giacomoratta/path-info-stats/issues"

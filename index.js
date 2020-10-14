@@ -1,5 +1,5 @@
-const { PathInfo } = require('./pathInfo.class')
-const { PathInfoSync } = require('./pathInfoSync.class')
+const { PathInfo } = require('./src/pathInfo.class')
+const { PathInfoSync } = require('./src/pathInfoSync.class')
 
 module.exports = {
   PathInfo,

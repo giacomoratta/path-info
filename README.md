@@ -2,6 +2,8 @@
 
 NPM package for reading information about absolute paths, which can also be imported/exported via JSON. Both sync and async classes are provided.
 
+[![Version npm](https://img.shields.io/npm/v/path-info.svg?style=flat-square)](https://www.npmjs.com/package/path-info) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
 #### Install
 ```shell script
 npm i path-info
